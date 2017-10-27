@@ -18,13 +18,11 @@ namespace ArcMapFusionTables
 {
     public partial class formAuthorize : Form
     {
-        private const string clientId = "1003120056405-ofafvc699hjujp0a9952g8vjaludk90j.apps.googleusercontent.com";
-        private const string clientSecret = "ILrbaMipFC6PxLIQVKZApv-c";
+        private const string clientId = "";
+        private const string clientSecret = "";
         private string redirectURI = "urn:ietf:wg:oauth:2.0:oob:auto";
         private string scope = "https://www.googleapis.com/auth/fusiontables";
-        //OBannon  (lines and points)
-        //private string strTableID = "1ommQFLm8eZKFk_HdRZXL8PIZEWNxIU5uFFcba1Zg";
-        //BBG  (polygons)
+
         private string strTableID = "1Z5H9rWY9A0SHT1hJACrnTJE7BricYkMJ18DHdNQ";
 
         public formAuthorize()
